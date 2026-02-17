@@ -1,0 +1,34 @@
+# 📚 Required Libraries for STM32 RFID Project
+
+This document lists all the libraries required for the Efficient Computer Specifications Retrieval System.
+
+## 🔧 How to Install Libraries
+
+### In Arduino IDE:
+1. Go to `Sketch → Include Library → Manage Libraries`
+2. Search for each library name below
+3. Click "Install" on the matching library
+
+---
+
+## 📦 Library List
+
+| Library Name | Version | Author | Purpose | Installation Command |
+|--------------|---------|--------|---------|---------------------|
+| **LiquidCrystal I2C** | 1.1.2 | Frank de Brabander | Control 16x2 LCD via I2C | `LiquidCrystal I2C` |
+| **SoftwareSerial** | 1.0 | Arduino | UART communication for RFID | Built-in |
+| **Wire** | 1.0 | Arduino | I2C communication | Built-in |
+| **ESP8266WiFi** | 1.0 | ESP8266 Community | WiFi connectivity for NodeMCU | `ESP8266WiFi` |
+| **ESP8266HTTPClient** | 1.0 | ESP8266 Community | HTTP requests from NodeMCU | `ESP8266HTTPClient` |
+| **ArduinoJson** | 6.21.3 | Benoit Blanchon | JSON parsing for API | `ArduinoJson` |
+| **EEPROM** | 1.0 | Arduino | Store offline data | Built-in |
+
+---
+
+## 📥 Manual Installation (if needed)
+
+### For LiquidCrystal I2C:
+```bash
+# Download from GitHub
+cd ~/Arduino/libraries
+git clone https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library.git
